@@ -19,3 +19,18 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 * JQuery
 * Git, GitHub
 * VS Code
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+### Code example:
+This code does not execute properly. Try to figure out why.This code does not execute properly. Try to figure out why.
+```
+function multiply(a, b){
+  a * b
+}
+```
+The error has been fixed
+```
+function multiply(a, b){
+  return a * b
+}
+```
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
