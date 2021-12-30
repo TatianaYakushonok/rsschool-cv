@@ -21,6 +21,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 * VS Code
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 ### Code example:
+**A task with codewars**
 This code does not execute properly. Try to figure out why.This code does not execute properly. Try to figure out why.
 ```
 function multiply(a, b){
@@ -33,4 +34,14 @@ function multiply(a, b){
   return a * b
 }
 ```
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+### Courses:
+* HTML and CSS Tutorial on the [htmlacademy.ru][1]
+* JavaScript Manual on [learnjavascript.ru][2]
+* RS School Course "JavaScript/Front-end. Stage 0"
+[1]: http://htmlacademy.ru/
+[2]: http://learnjavascript.ru/
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+### Languages:
+* English - Intermediate
