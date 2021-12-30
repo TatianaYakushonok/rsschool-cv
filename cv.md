@@ -37,11 +37,9 @@ function multiply(a, b){
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 ### Courses:
-* HTML and CSS Tutorial on the [htmlacademy.ru][1]
-* JavaScript Manual on [learnjavascript.ru][2]
+* HTML and CSS Tutorial on the [htmlacademy.ru](htmlacademy.ru)
+* JavaScript Manual on [learnjavascript.ru](learnjavascript.ru)
 * RS School Course "JavaScript/Front-end. Stage 0"
-[1]: http://htmlacademy.ru/
-[2]: http://learnjavascript.ru/
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 ### Languages:
 * English - Intermediate
