@@ -59,3 +59,38 @@ h2 {
 .header_photo_img {
     margin: auto;
 }
+
+main {
+    display: flex;
+    font-size: 18px;
+    color: #949294;
+    line-height: 28px;
+}
+
+aside {
+    padding: 0px 40px;
+    background-color: #E9EAEC;
+}
+
+.section_header {
+    color: #4D4D4f;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #949294;
+}
+
+section {
+    padding-top: 40px;
+}
+
+.aside_list {
+    padding-top: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    padding: 0px 40px;
+}
