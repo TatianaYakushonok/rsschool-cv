@@ -1,1 +1,61 @@
-h1 {font-size: 36px;}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.header_title {
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header_paragraf {
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-transform: none;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1040px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    padding: 60px 40px 0px;
+    background-color: #4D4D4F;
+}
+
+.header_photo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #232323;
+    border: 1px solid #232323;
+    border-radius: 50%;
+}
+
+.header_top {
+    padding: 30px 40px 30px 120px;
+}
+
+.header_photo_img {
+    margin: auto;
+}
