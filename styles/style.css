@@ -210,7 +210,7 @@ img {
 /*----------------------------- HEADER --------------------------------*/
 
 .header {
-    position: relative;
+    /*position: relative;*/
     padding-bottom: 300px;
     font-size: 16px;
     color: #fff;
@@ -267,10 +267,25 @@ img {
 
 /*----------------------------- SECTION ABOUT --------------------------------*/
 
+.about {
+    height: 100%;
+}
+
+.about__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
 .about__card {
-    position: absolute;
+    /*position: absolute;
     top: 200px;
-    width: 1080px;
+    width: 1080px;*/
+    position: relative;
+    top: 300px;
+    left: 0;
+    transform: translateY(-100%);
+    margin-bottom: 52px;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -362,9 +377,11 @@ img {
 }
 
 .about__hire {
-    width: 1100px;
+    /*width: 1100px;
     position: absolute;
-    top: 760px;
+    top: 0;
+    left: 0;*/
+    transform: translateY(-100%);
     padding: 30px 50px;
     display: flex;
     gap: 100px;
@@ -407,3 +424,126 @@ img {
     padding-right: 50px;
     font-weight: 700;
 }
+
+/*----------------------------- SECTION SKILLS --------------------------------*/
+
+.skills__container {
+    display: flex;
+    background-color: #fff;
+    transform: translateY(-60%);
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+}
+
+.skills__info {
+    width: 50%;
+    padding: 30px 50px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+  }
+   
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -14px;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+}
+  
+input[type=range]::-moz-range-thumb {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+}
+  
+input[type=range]::-ms-thumb {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: var(--main-color-2);
+    border-radius: 10px;
+}
+  
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #367ebd;
+}
+  
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: var(--main-color-2);;
+    border-radius: 10px;
+}
+  
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: var(--main-color-2);
+    border-radius: 10px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #3071a9;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: var(--main-color-2);
+    border-radius: 10px;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #367ebd;
+}
+
+.skills__img {
+    width: 60%;
+    background-image: url('../img/photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*----------------------------- SECTION EDUCATION --------------------------------*/
+
