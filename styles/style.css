@@ -164,7 +164,7 @@ body {
     transition: all .3s ease-in;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     margin: 0;
 }
 
@@ -198,6 +198,10 @@ img {
     background-color: transparent;
     transition: all .3s ease-in;
     cursor: pointer;
+}
+
+.section {
+    margin-bottom: 50px;
 }
 
 .section__title {
@@ -430,7 +434,7 @@ img {
 .skills__container {
     display: flex;
     background-color: #fff;
-    transform: translateY(-60%);
+    /*transform: translateY(-75%);*/
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
 }
 
@@ -537,6 +541,10 @@ input[type=range]:focus::-ms-fill-upper {
     background: #367ebd;
 }
 
+.skills__item {
+    margin-bottom: 15px;
+}
+
 .skills__img {
     width: 60%;
     background-image: url('../img/photo.jpg');
@@ -547,3 +555,73 @@ input[type=range]:focus::-ms-fill-upper {
 
 /*----------------------------- SECTION EDUCATION --------------------------------*/
 
+.education__container {
+    padding: 30px 50px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+    /*transform: translateY(-26%);*/
+}
+
+.education__item {
+    display: flex;
+    margin-bottom: 25px;
+    border: 1px solid rgba(50, 50, 50, .2);
+    transition: all .3s ease-in;
+}
+
+.education__item:hover {
+    color: #fff;
+    background-color: var(--main-color-2);
+    box-shadow: 0 5px 20px rgba(50, 50, 50, .3);
+    transform: translateY(-5%);
+    cursor: pointer;
+}
+
+.education__item:hover .education__item--subtitle {
+    color: rgba(50, 50, 50, .8);
+}
+
+.education__img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    background: url('../img/html_academy.png') no-repeat center;
+    background-size: cover;
+}
+
+.education__item:nth-child(2) > .education__img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    background: url('../img/javascript.png') no-repeat center;
+    background-size: cover;
+}
+
+.education__item:nth-child(3) > .education__img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    background: url('../img/Rolling_Scopes_School.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.education__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    border-left: 1px solid rgba(50, 50, 50, .2);
+}
+
+.education__item--title {
+    margin-bottom: 10px;
+}
+
+.education__item--subtitle {
+    color: var(--main-color-2);
+}
+
+.education__item--subtitle > a {
+    text-decoration: underline;
+    color: var(--main-color-2);
+}
