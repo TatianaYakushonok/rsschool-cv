@@ -164,7 +164,7 @@ body {
     transition: all .3s ease-in;
 }
 
-h1 {
+h1, h2, p {
     margin: 0;
 }
 
@@ -181,6 +181,10 @@ li {
     list-style-type: none;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -189,7 +193,8 @@ li {
 .btn {
     color: #fff;
     padding: 19px 37px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
     background-color: transparent;
     transition: all .3s ease-in;
     cursor: pointer;
@@ -198,6 +203,7 @@ li {
 /*----------------------------- HEADER --------------------------------*/
 
 .header {
+    position: relative;
     padding-bottom: 300px;
     color: #fff;
     background-color: var(--main-color-2);
@@ -249,4 +255,99 @@ li {
 
 .header__nav--link:hover::after {
     width: 100%;
+}
+
+/*----------------------------- SECTION ABOUT --------------------------------*/
+
+.about__card {
+    position: absolute;
+    top: 200px;
+    width: 1080px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: url('../img/bg_img.jpg') center no-repeat;
+}
+
+.about__card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(50, 50, 50,.8);
+    z-index: 2;
+}
+
+.about__img {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    z-index: 3;
+}
+
+.about__title {
+    margin-bottom: 12px;
+    z-index: 3;
+}
+
+.about__subtitle {
+    margin-bottom: 25px;
+    z-index: 3;
+}
+
+.about__item {
+    margin-bottom: 30px;
+    z-index: 3;
+}
+
+.about__img--pic {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about__list {
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color .3s ease-in;
+}
+
+.fa:hover,
+.fa:active {
+    color: var(--main-color-2); 
+}
+
+.about__btn--container {
+    display: flex;
+    gap: 36px;
+    z-index: 3;
+}
+
+.about__btn--download {
+    border: 1px solid transparent;
+    background-color: var(--main-color-2);
+}
+
+.about__btn--hire:hover,
+.about__btn--hire:active,
+.about__btn--download:hover,
+.about__btn--download:active {
+    color: var(--main-color-2);
+    border: 1px solid #fff;
+    background-color: #fff;
 }
