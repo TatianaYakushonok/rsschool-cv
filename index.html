@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Creating Portfolio/CV " />
-    <meta name="keywords" content="HTML, CSS, Portfolio" />
-    <meta name="author" content="Tatiana Yakushonok" />
+    <meta name="description" content="Creating Portfolio/CV">
+    <meta name="keywords" content="HTML, CSS, Portfolio">
+    <meta name="author" content="Tatiana Yakushonok">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="./styles/style.css" rel="stylesheet">
     <title>Tatiana Yakushonok / Font-end developer</title>
 </head>
 <body>
-    <div class="container">
-        <header class="header"> 
+    <!-- <div class="container">
+        <header class="header">
             <div class="header_photo">
-                <img class="header_photo" src="img/My_photo2.png" alt="Photo" class="header_photo_img">
+                <img class="header_photo header_photo_img" src="img/My_photo2.png" alt="Photo">
             </div>
-            <div class="header_top">  
+            <div class="header_top">
                 <h1 class="header_title">Tatiana</h1>
                 <h2 class="header_title">Yakushonok</h2>
-                <p class="header_title header_paragraf">Front-end developer</p> 
-            </div>  
+                <p class="header_title header_paragraf">Front-end developer</p>
+            </div>
         </header>
         <main>
             <aside>
@@ -33,7 +34,7 @@
                     </div>
                     <ul class="aside_list contact_list">
                         <li class="contact_l">
-                           <img class="contact_icon" src="img/phone-call.png" alt="phon">
+                           <img class="contact_icon" src="img/phone-call.png" alt="phone">
                            <p>+7(904)574 76 80</p>
                         </li>
                         <li class="contact_l">
@@ -92,58 +93,53 @@
                     <div class="section_header">
                         <h3>About me</h3>
                     </div>
-                    <p class="aside_list">My name is Tatiana. I’m from Russia. I live in Novokuznetsk.
-                       <br>
-                       In 2017, she became interested in website development, started studying at htmlacademy.ru . I studied courses in HTML and CSS, the basics of JS. I studied the basics of working with jQuery.
-                       <br>
-                       In 2020-21, she studied working with 1C. She worked in a franchisee company as a junior 1C programmer.
-                       <br>
-                       At the moment, I have returned to the study of website development.
+                    <p class="aside_list">
+                        My name is Tatiana. I’m from Russia. I live in Novokuznetsk. In 2017, she became interested in website development, started studying at htmlacademy.ru . I studied courses in HTML and CSS, the basics of JS. I studied the basics of working with jQuery. In 2020-21, she studied working with 1C. She worked in a franchisee company as a junior 1C programmer. At the moment, I have returned to the study of website development.
                     </p>
                 </section>
                 <section id="aducation">
-                        <div class="section_header">
-                            <h3>Aducation</h3>
-                        </div>
-                        <ul class="aside_list aducation_list">
-                            <li class="aducation_list">HTML and CSS Tutorial on the <a target="_blank" href="https://htmlacademy.ru">htmlacademy.ru</a></li>
-                            <li class="aducation_list">JavaScript Manual on <a target="_blank" href="https://learn.javascript.ru">learn.javascript.ru</a></li>
-                            <li class="aducation_list">RS School Course <a target="_blank" href="https://rs.school/js/">“JavaScript/Front-end. Stage 0”</a></li>
-                        </ul>
+                    <div class="section_header">
+                        <h3>Aducation</h3>
+                    </div>
+                    <ul class="aside_list aducation_list">
+                        <li class="aducation_list">HTML and CSS Tutorial on the <a target="_blank" href="https://htmlacademy.ru">htmlacademy.ru</a></li>
+                        <li class="aducation_list">JavaScript Manual on <a target="_blank" href="https://learn.javascript.ru">learn.javascript.ru</a></li>
+                        <li class="aducation_list">RS School Course <a target="_blank" href="https://rs.school/js/">“JavaScript/Front-end. Stage 0”</a></li>
+                    </ul>
                 </section>
                 <section id="code_example">
-                        <div class="section_header">
-                            <h3>Code Example</h3>
+                    <div class="section_header">
+                        <h3>Code Example</h3>
+                    </div>
+                    <div class="aside_list code_example_list">
+                        <p>A task with codewars</p>
+                        <p>This code does not execute properly. Try to figure out why.This code does not execute properly. Try to figure out why.</p>
+                        <div class="code">
+                            <pre>
+                                <code id="code1">
+                                    function multiply(a, b){
+                                        a * b
+                                    }
+                                </code>
+                            </pre>
                         </div>
-                        <div class="aside_list code_example_list">
-                            <p>A task with codewars</p>
-                            <p>This code does not execute properly. Try to figure out why.This code does not execute properly. Try to figure out why.</p>
-                            <div class="code">
-                               <pre>
-                                   <code id="code">
-                                        function multiply(a, b){
-                                           a * b
-                                        }
-                                   </code>
-                               </pre>
-                            </div>
-                            <p>The error has been fixed</p>
-                            <div class="code">
-                                <pre>
-                                   <code id="code">
-                                        function multiply(a, b){
-                                           return a * b
-                                        }
-                                   </code>
-                               </pre>
-                            </div>
+                        <p>The error has been fixed</p>
+                        <div class="code">
+                            <pre>
+                                <code id="code2">
+                                    function multiply(a, b){
+                                        return a * b
+                                    }
+                                </code>
+                            </pre>
                         </div>
-                    </section>
+                    </div>
+                </section>
             </div>
         </main>
         <footer class="footer_bottom">
             <p>2022© Tatiana Yakushonok</p>
-            <a class= "footer_link" href="https://github.com/TatianaYakushonok">
+            <a class="footer_link" href="https://github.com/TatianaYakushonok">
                 <img class="footer_icon" src="img/GitHub-Mark-32px.png" alt="Logo RS School">
                 My GitHub
             </a>
@@ -151,6 +147,202 @@
                 <img class="footer_img" src="https://rs.school/images/rs_school_js.svg" alt="Logo RS School">
             </a>
         </footer>
-    </div>      
+    </div> -->
+    <header class="header">
+        <div class="container">
+            <div class="header__contacts">
+                <h1 class="header__title">Portfolio</h1>
+                <button class="btn header__btn">Contact Me</button>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav--list">
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about" class="header__nav--link">
+                            About
+                        </a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">
+                            Education
+                        </a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">
+                            Code
+                        </a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about section">
+            <div class="about__container">
+                <div id="about" class="about__card">
+                    <div class="about__img">
+                        <img src="./img/My_photo2.png" alt="My photo" class="about__img--pic">
+                    </div>
+                    <h2 class="about__title">I’m Tatiana Yakushonok</h2>
+                    <p class="about__subtitle">Font-end developer</p>
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <a href="https://tele.click/yatatiana" class="about__link">
+                                <i class="fa fa-telegram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://vk.com/tatiana_yakushonok" class="about__link">
+                                <i class="fa fa-vk" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://ok.ru/profile/570519197069" class="about__link">
+                                <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://www.facebook.com/tatiana.yakushonok" class="about__link">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://github.com/TatianaYakushonok" class="about__link">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="about__btn--container">
+                        <button class="btn about__btn--hire">Hire Me</button>
+                        <button class="btn about__btn--download">Download CV</button>
+                    </div>
+                </div>
+                <div class="about__hire">
+                    <div class="about__hire--info">
+                        <h2 class="about__hire--title section__title">About</h2>
+                        <p class="about__hire--text">
+                            <span>Hello, I am Tatiana, Front-end developer.</span> I’m from Russia. I live in Novokuznetsk. 
+                            In 2017, she became interested in website development, started studying at htmlacademy.ru . 
+                            I studied courses in HTML and CSS, the basics of JS. I studied the basics of working with jQuery. 
+                            In 2020-21, she studied working with 1C. She worked in a franchisee company as a junior 1C programmer. 
+                            At the moment, I have returned to the study of website development.  
+                        </p>
+                        <div class="about__hire--inc">
+                            Yakushonok T. A.
+                        </div>
+                    </div>
+                    <div class="about__hire--contacts">
+                        <h2 class="about__hire--title section__title">Contact information</h2>
+                        <ul class="about__hire--list">
+                            <li class="about__hire--item">
+                                <span>Date of Birth: </span>20 Desamber, 1982
+                            </li>
+                            <li class="about__hire--item">
+                                <span>Place of Birth: </span>Russia, Novokuznetsk
+                            </li>
+                            <li class="about__hire--item">
+                                <span>Address: </span>st. Zapsibovsev, 13-68
+                            </li>
+                            <li class="about__hire--item">
+                                <span>E-mail: </span>yakush2@yandex.ru
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills section">
+            <div class="container">
+                <div class="skills__container">
+                    <div class="skills__info">
+                        <h2 class="skills__title section__title">Skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <h3 class="skills__title">Git, GitHub</h3>
+                                <input type="range" min="0" max="100" step="5" value="50"/>
+                            </li>
+                            <li class="skills__item">
+                                <h3 class="skills__title">HTML5</h3>
+                                <input type="range" min="0" max="100" step="5" value="90"/>
+                            </li>
+                            <li class="skills__item">
+                                <h3 class="skills__title">CSS3</h3>
+                                <input type="range" min="0" max="100" step="5" value="80"/>
+                            </li>
+                            <li class="skills__item">
+                                <h3 class="skills__title">JavaScript</h3>
+                                <input type="range" min="0" max="100" step="5" value="60"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__img"></div>
+                </div>
+            </div>
+        </section>
+        <section class="education section">
+            <div class="container">
+                <div class="education__container">
+                    <h2 class="education__title section__title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <div class="education__img"></div>
+                            <div class="education__info">
+                                <h3 class="education__item--title">HTML and CSS</h3>
+                                <p class="education__item--subtitle">
+                                    Studied HTML and CSS Tutorial on the <a target="_blank" href="https://htmlacademy.ru">htmlacademy.ru</a>
+                                </p>
+                                <p class="education__item--text">
+                                    I studied lessons and practiced writing code on the htmlacademy simulator.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <div class="education__img"></div>
+                            <div class="education__info">
+                                <h3 class="education__item--title">JavaScript</h3>
+                                <p class="education__item--subtitle">
+                                    Studied JavaScript Manual on <a target="_blank" href="https://learn.javascript.ru">learn.javascript.ru</a></a>
+                                </p>
+                                <p class="education__item--text">
+                                    I studied lessons and practiced writing code on the learn.javascript.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <div class="education__img"></div>
+                            <div class="education__info">
+                                <h3 class="education__item--title">JS Course · The Rolling Scopes School</h3>
+                                <p class="education__item--subtitle">
+                                    Studied RS School Course <a target="_blank" href="https://rs.school/js/">“JavaScript/Front-end. Stage 0”</a>
+                                </p>
+                                <p class="education__item--text">
+                                    I studied lessons and practiced writing code on The Rolling Scopes School.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
