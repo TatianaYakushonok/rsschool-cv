@@ -343,7 +343,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio section">
             <div class="container">
                 <div class="portfolio__container">
                     <h2 class="portfolio__title section__title">Portfolio</h2>
@@ -379,6 +379,32 @@
                             </div>
                         </div>
                     </div> 
+                </div>
+            </div>
+        </section>
+        <section class="code section">
+            <div class="container">
+                <div class="code__container">
+                    <h2 class="code__title section__title">Code example</h2>
+                    <div class="code__text">
+                        <pre>
+                            <code id="code2">
+                                (<font color="#CF222E">function</font>(){
+                                    <font color="#CF222E">const</font> videoPlay = document.<font color="#8276E8">querySelector</font>('.video_ico');
+                                    <font color="#CF222E">const</font> video = document.<font color="#8276E8">querySelector</font>('.video');
+                                    videoPlay.<font color="#8276E8">addEventListener</font>('click', () => {
+                                        <font color="#CF222E">if</font>(video.<font color="#0550AE">paused</font>) {
+                                            video.<font color="#8276E8">play</font>();
+                                            videoPlay.<font color="#0550AE">classList</font>.<font color="#8276E8">add</font>('video_ico-hidden');
+                                        } <font color="#CF222E">else</font> {
+                                            video.<font color="#8276E8">pause</font>();
+                                            videoPlay.<font color="#0550AE">classList</font>.<font color="#8276E8">remove</font>('video_ico-hidden');
+                                        }
+                                    })
+                                 }())
+                            </code>
+                        </pre>
+                    </div>
                 </div>
             </div>
         </section>

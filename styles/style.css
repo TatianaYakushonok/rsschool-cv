@@ -164,7 +164,7 @@ body {
     transition: all .3s ease-in;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, pre {
     margin: 0;
 }
 
@@ -707,4 +707,17 @@ input[type=range]:focus::-ms-fill-upper {
 
 .portfolio__card--img:hover > span {
     display: block;
+}
+
+/*----------------------------- SECTION CODE EXAMPLE --------------------------------*/
+
+.code__container {
+    padding: 30px 50px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+}
+
+.code__text {
+    color: #242969;
+    background-color: #ccc;
 }
