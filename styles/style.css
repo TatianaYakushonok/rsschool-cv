@@ -437,7 +437,7 @@ img {
 .skills__container {
     display: flex;
     background-color: #fff;
-    /*transform: translateY(-75%);*/
+    transform: translateY(-55%);
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
 }
 
@@ -562,7 +562,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
-    /*transform: translateY(-26%);*/
+    transform: translateY(-28%);
 }
 
 .education__item {
@@ -636,6 +636,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+    transform: translateY(-36%);
 }
 
 .portfolio__card--container {
@@ -719,6 +720,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+    transform: translateY(-46%);
 }
 
 .code__text {
@@ -732,6 +734,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+    transform: translateY(-36%);
 }
 
 .contacts__card {
@@ -761,6 +764,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+    transform: translateY(-176%);
 }
 
 .footer__link {
