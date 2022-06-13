@@ -167,27 +167,27 @@
                         </a>
                     </li>
                     <li class="header__nav--item">
-                        <a href="#!" class="header__nav--link">
+                        <a href="#skills" class="header__nav--link">
                             Skills
                         </a>
                     </li>
                     <li class="header__nav--item">
-                        <a href="#!" class="header__nav--link">
+                        <a href="#education" class="header__nav--link">
                             Education
                         </a>
                     </li>
                     <li class="header__nav--item">
-                        <a href="#!" class="header__nav--link">
+                        <a href="#portfolio" class="header__nav--link">
                             Portfolio
                         </a>
                     </li>
                     <li class="header__nav--item">
-                        <a href="#!" class="header__nav--link">
+                        <a href="#code" class="header__nav--link">
                             Code
                         </a>
                     </li>
                     <li class="header__nav--item">
-                        <a href="#!" class="header__nav--link">
+                        <a href="#contacts" class="header__nav--link">
                             Contacts
                         </a>
                     </li>
@@ -270,7 +270,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills section">
+        <section id="skills" class="skills section">
             <div class="container">
                 <div class="skills__container">
                     <div class="skills__info">
@@ -298,7 +298,7 @@
                 </div>
             </div>
         </section>
-        <section class="education section">
+        <section id="education" class="education section">
             <div class="container">
                 <div class="education__container">
                     <h2 class="education__title section__title">Education</h2>
@@ -343,6 +343,107 @@
                 </div>
             </div>
         </section>
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <div class="portfolio__container">
+                    <h2 class="portfolio__title section__title">Portfolio</h2>
+                    <div class="portfolio__card--container">
+                        <div class="portfolio__img--container">
+                            <div class="portfolio__card--img">
+                                <span>Landing page. <br>Portfolio for photographer.</span>
+                            </div>
+                        </div>
+                        <div class="portfolio__img--container">
+                            <div class="portfolio__card--img">
+                                <span>Video player. <br>Implemented using JavaScript.</span>
+                            </div>
+                        </div>
+                        <div class="portfolio__img--container">
+                            <div class="portfolio__card--img">
+                                <span>Image gallery. <br>Implemented using the unsplash API.</span>
+                            </div>
+                        </div>
+                        <div class="portfolio__img--container">
+                            <div class="portfolio__card--img">
+                                <span>Game Tic-Tac-Toe. <br>The game is implemented in JavaScript.</span>
+                            </div>
+                        </div>
+                        <div class="portfolio__img--container">
+                            <div class="portfolio__card--img">
+                                <span>Landing page. <br>Landing page for a pet nursery.</span>
+                            </div>
+                        </div>
+                        <div class="portfolio__img--container">
+                            <div class="portfolio__card--img">
+                                <span>CSS Slider. <br>Slider written in css.</span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="code" class="code section">
+            <div class="container">
+                <div class="code__container">
+                    <h2 class="code__title section__title">Code example</h2>
+                    <div class="code__text">
+                        <pre>
+                            <code id="code2">
+                                (<font color="#CF222E">function</font>(){
+                                    <font color="#CF222E">const</font> videoPlay = document.<font color="#8276E8">querySelector</font>('.video_ico');
+                                    <font color="#CF222E">const</font> video = document.<font color="#8276E8">querySelector</font>('.video');
+                                    videoPlay.<font color="#8276E8">addEventListener</font>('click', () => {
+                                        <font color="#CF222E">if</font>(video.<font color="#0550AE">paused</font>) {
+                                            video.<font color="#8276E8">play</font>();
+                                            videoPlay.<font color="#0550AE">classList</font>.<font color="#8276E8">add</font>('video_ico-hidden');
+                                        } <font color="#CF222E">else</font> {
+                                            video.<font color="#8276E8">pause</font>();
+                                            videoPlay.<font color="#0550AE">classList</font>.<font color="#8276E8">remove</font>('video_ico-hidden');
+                                        }
+                                    })
+                                 }())
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts section">
+            <div class="container">
+                <div class="contacts__container">
+                    <h2 class="contacts__title section__title">Contact information</h2>
+                    <div class="contacts__card">
+                        <div class="contacts__info">
+                            <ul class="about__hire--list">
+                                <li class="about__hire--item">
+                                    <span>Address: </span>Russia, Novokuznetsk
+                                </li>
+                                <li class="about__hire--item">
+                                    <span>Phone: </span>+7(904) 574 76 80
+                                </li>
+                                <li class="about__hire--item">
+                                    <span>E-mail: </span>yakush2@yandex.ru
+                                </li>
+                            </ul>        
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <p class="footer__info">2022© Tatiana Yakushonok</p>
+                <a class="footer__link" href="https://github.com/TatianaYakushonok">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    My GitHub
+                </a>
+                <a href="https://rs.school/js/">
+                    <img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="Logo RS School">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
