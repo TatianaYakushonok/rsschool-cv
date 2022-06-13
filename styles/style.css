@@ -156,6 +156,10 @@ li {
     --bg-color: #E5E5E5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Helvetica Neue';
     font-size: 14px;
@@ -541,7 +545,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .skills__item {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .skills__img {
@@ -746,4 +750,38 @@ input[type=range]:focus::-ms-fill-upper {
     margin-left: 50px;
     padding: 50px;
     background-color: #fff;
+}
+
+/*----------------------------- FOOTER --------------------------------*/
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__link:hover {
+    color: var(--main-color-2);
+}
+
+.fa-github {
+    font-size: 48px;
+    color: var(--item-color);
+}
+
+.footer__img {
+    width: 120px;
+}
+
+.footer__img:hover {
+    filter: invert(69%) sepia(87%) saturate(455%) hue-rotate(157deg) brightness(91%) contrast(85%);
 }
