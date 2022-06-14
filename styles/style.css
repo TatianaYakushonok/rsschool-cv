@@ -351,11 +351,31 @@ input[type=range]::-moz-range-track {
 }
     
 .skills__item {
+    position: relative;
     margin-bottom: 35px;
 }
 
 .skills__output {
-    display: none;
+    position: absolute;
+    color: var(--main-color-2);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.skills__item:nth-child(1) > .skills__output {
+    right: 194px;
+}
+
+.skills__item:nth-child(2) > .skills__output {
+    right: 54px;
+}
+
+.skills__item:nth-child(3) > .skills__output {
+    right: 100px;
+}
+
+.skills__item:nth-child(4) > .skills__output {
+    right: 239px;
 }
 
 .skills__img {
