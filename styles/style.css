@@ -558,6 +558,18 @@ input[type=range]::-moz-range-track {
     background-color: #ccc;
 }
 
+.red {
+    color: #CF222E;
+}
+
+.blue {
+    color: #8276E8;
+}
+
+.darcblue {
+    color: #0550AE;
+}
+
 /*----------------------------- SECTION CONTACTS --------------------------------*/
 
 .contacts__container {
