@@ -501,37 +501,37 @@ input[type=range]::-moz-range-track {
     transition: all .3s ease-in;
 }
 
-.portfolio__img--container:nth-child(2) > .portfolio__card--img {
+.portfolio__link:nth-child(2) > .portfolio__img--container .portfolio__card--img {
     background: url('../img/video-player.png') no-repeat center;
     background-size: cover;
 }
 
-.portfolio__img--container:nth-child(3) > .portfolio__card--img {
+.portfolio__link:nth-child(3) > .portfolio__img--container .portfolio__card--img {
     background: url('../img/image-gallery.png') no-repeat center;
     background-size: cover;
 }
 
-.portfolio__img--container:nth-child(4) > .portfolio__card--img {
+.portfolio__link:nth-child(4) > .portfolio__img--container .portfolio__card--img {
     background: url('../img/game.png') no-repeat center;
     background-size: cover;
 }
 
-.portfolio__img--container:nth-child(5) > .portfolio__card--img {
+.portfolio__link:nth-child(5) > .portfolio__img--container .portfolio__card--img {
     background: url('../img/shelter.png') no-repeat center;
     background-size: cover;
 }
 
-.portfolio__img--container:nth-child(6) > .portfolio__card--img {
+.portfolio__link:nth-child(6) > .portfolio__img--container .portfolio__card--img {
     background: url('../img/Slider.png') no-repeat center;
     background-size: cover;
 }
 
 .portfolio__card--img:hover,
-.portfolio__img--container:nth-child(2) > .portfolio__card--img:hover,
-.portfolio__img--container:nth-child(3) > .portfolio__card--img:hover,
-.portfolio__img--container:nth-child(4) > .portfolio__card--img:hover,
-.portfolio__img--container:nth-child(5) > .portfolio__card--img:hover,
-.portfolio__img--container:nth-child(6) > .portfolio__card--img:hover {
+.portfolio__link:nth-child(2) > .portfolio__img--container .portfolio__card--img:hover,
+.portfolio__link:nth-child(3) > .portfolio__img--container .portfolio__card--img:hover,
+.portfolio__link:nth-child(4) > .portfolio__img--container .portfolio__card--img:hover,
+.portfolio__link:nth-child(5) > .portfolio__img--container .portfolio__card--img:hover,
+.portfolio__link:nth-child(6) > .portfolio__img--container .portfolio__card--img:hover {
     background: var(--main-color-2);
     cursor: pointer;
 }
