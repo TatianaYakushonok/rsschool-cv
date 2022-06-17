@@ -606,7 +606,7 @@ input[type=range]::-moz-range-track {
     padding: 30px 50px;
     background-color: #fff;
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
-    transform: translateY(-240%);
+    transform: translateY(-175%);
 }
 
 .footer__link {
