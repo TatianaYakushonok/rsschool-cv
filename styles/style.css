@@ -600,10 +600,15 @@ input[type=range]::-moz-range-track {
     box-shadow: 0 1px 5px rgba(50, 50, 50, .2);
 }
 
+.footer__info,
+.footer__link--img {
+    width: 30%;
+}
+
 .footer__link {
-    /*display: flex;
-    flex-direction: column;
-    text-align: center;*/
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__link:hover {
@@ -617,6 +622,11 @@ input[type=range]::-moz-range-track {
 
 .footer__img {
     width: 80px;
+}
+
+.footer__link--img {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer__img:hover {
