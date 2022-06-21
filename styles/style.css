@@ -181,6 +181,7 @@ img {
 
 .about__title {
     margin-bottom: 12px;
+    font-size: 32px;
     z-index: 3;
 }
 
@@ -206,15 +207,23 @@ img {
 }
 
 .fa {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
-    font-size: 24px;
-    color: #fff;
-    transition: color .3s ease-in;
+    font-size: 18px;
+    color: #323232;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 50%;
+    transition: all .3s ease-in;
 }
 
 .fa:hover,
 .fa:active {
-    color: var(--main-color-2); 
+    background-color: rgba(255, 255, 255, 1); 
 }
 
 .about__btn--container {
@@ -618,6 +627,10 @@ input[type=range]::-moz-range-track {
 .footer__github {
     font-size: 36px;
     color: var(--item-color);
+}
+
+.footer__github:hover {
+    background-color: var(--main-color-2);
 }
 
 .footer__img {
