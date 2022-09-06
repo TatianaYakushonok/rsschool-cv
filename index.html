@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Creating Portfolio/CV">
+    <meta name="keywords" content="HTML, CSS, Portfolio">
+    <meta name="author" content="Tatiana Yakushonok">
+    <link rel="preconnect" href="https://spans.googleapis.com">
+    <link rel="preconnect" href="https://spans.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>Tatiana Yakushonok / Front-end developer</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__contacts">
+                <h1 class="header__title">Portfolio</h1>
+                <button type="button" class="btn header__btn">Contact Me</button>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav--list">
+                    <li class="header__nav--item">
+                        <a href="#!" class="header__nav--link">Home</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about" class="header__nav--link">About</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#skills" class="header__nav--link">Skills</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#education" class="header__nav--link">Education</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#portfolio" class="header__nav--link">Portfolio</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#code" class="header__nav--link">Code</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#contacts" class="header__nav--link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about section">
+            <div class="about__container">
+                <div id="about" class="about__card">
+                    <div class="about__img--container">
+                        <div class="about__img">
+                            <img src="./img/My_photo2.png" alt="My photo" class="about__img--pic">
+                        </div>
+                    </div>
+                    <h2 class="about__title">I’m Tatiana Yakushonok</h2>
+                    <p class="about__subtitle">Front-end developer</p>
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <a href="https://discordapp.com/users/951357467835654164/" class="about__link">
+                                <img class="fa fa-discord" src="./img/discord.png" alt="discord">
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://tele.click/yatatiana" class="about__link" aria-label="telegram"><i class="fa fa-telegram" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://vk.com/tatiana_yakushonok" class="about__link" aria-label="vk"><i class="fa fa-vk" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://ok.ru/profile/570519197069" class="about__link" aria-label="ok"><i class="fa fa-odnoklassniki" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://www.facebook.com/tatiana.yakushonok" class="about__link" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="about__item">
+                            <a href="https://github.com/TatianaYakushonok" class="about__link" aria-label="github"><i class="fa fa-github" aria-hidden="true"></i> </a>
+                        </li>
+                    </ul>
+                    <div class="about__btn--container">
+                        <button type="button" class="btn about__btn--hire" onclick="document.location='#hire'">Hire Me</button>
+                        <a href="./files/CV.pdf" class="btn about__btn--download" download>Download CV</a>
+                    </div>
+                </div>
+                <div id="hire" class="about__hire">
+                    <div class="about__hire--info">
+                        <h2 class="about__hire--title section__title">About</h2>
+                        <p class="about__hire--text">
+                            <span>Hello, I am Tatiana, Front-end developer.</span> I’m from Russia. I live in Novokuznetsk.
+                            In 2017, she became interested in website development, started studying at htmlacademy.ru.
+                            I studied courses in HTML and CSS, the basics of JS. I studied the basics of working with jQuery.
+                            In 2020-21, she studied working with 1C. She worked in a franchisee company as a junior 1C programmer.
+                            At the moment, I have returned to the study of website development.
+                        </p>
+                        <div class="about__hire--inc">
+                            Yakushonok T. A.
+                        </div>
+                    </div>
+                    <div class="about__hire--contacts">
+                        <h2 class="about__hire--title section__title">Basic information</h2>
+                        <ul class="about__hire--list">
+                            <li class="about__hire--item">
+                                <span>Date of Birth:</span>20 Desamber, 1982
+                            </li>
+                            <li class="about__hire--item">
+                                <span>Place of Birth:</span>Russia, Novokuznetsk
+                            </li>
+                            <li class="about__hire--item">
+                                <span>Address:</span>st. Zapsibovsev
+                            </li>
+                            <li class="about__hire--item">
+                                <span>E-mail:</span>yakush2@yandex.ru
+                            </li>
+                            <li class="about__hire--item">
+                                <span>Language:</span>English - A2
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="skills__container">
+                    <div class="skills__info">
+                        <h2 class="skills__title section__title">Skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <h3 class="skills__title">Git, GitHub</h3>
+                                <input class="skills__input" type="range" min="0" max="100" step="5" value="60">
+                                <output class="skills__output">60</output>
+                            </li>
+                            <li class="skills__item">
+                                <h3 class="skills__title">HTML5</h3>
+                                <input class="skills__input" type="range" min="0" max="100" step="5" value="90">
+                                <output class="skills__output">90</output>
+                            </li>
+                            <li class="skills__item">
+                                <h3 class="skills__title">CSS3</h3>
+                                <input class="skills__input" type="range" min="0" max="100" step="5" value="80">
+                                <output class="skills__output">80</output>
+                            </li>
+                            <li class="skills__item">
+                                <h3 class="skills__title">JavaScript</h3>
+                                <input class="skills__input" type="range" min="0" max="100" step="5" value="50">
+                                <output class="skills__output">50</output>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__img"></div>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="education section">
+            <div class="container">
+                <div class="education__container">
+                    <h2 class="education__title section__title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <div class="education__img"></div>
+                            <div class="education__info">
+                                <h3 class="education__item--title">HTML and CSS</h3>
+                                <p class="education__item--subtitle">
+                                    Studied HTML and CSS Tutorial on the <a target="_blank" href="https://htmlacademy.ru">htmlacademy.ru</a>
+                                </p>
+                                <p class="education__item--text">
+                                    I studied lessons and practiced writing code on the htmlacademy simulator.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <div class="education__img"></div>
+                            <div class="education__info">
+                                <h3 class="education__item--title">JavaScript</h3>
+                                <p class="education__item--subtitle">
+                                    Studied JavaScript Manual on <a target="_blank" href="https://learn.javascript.ru">learn.javascript.ru</a>
+                                </p>
+                                <p class="education__item--text">
+                                    I studied lessons and practiced writing code on the learn.javascript.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <div class="education__img"></div>
+                            <div class="education__info">
+                                <h3 class="education__item--title">JS Course · The Rolling Scopes School</h3>
+                                <p class="education__item--subtitle">
+                                    Studied RS School Course <a target="_blank" href="https://rs.school/js/">“JavaScript/Front-end. Stage 0”</a>
+                                </p>
+                                <p class="education__item--text">
+                                    I studied lessons and practiced writing code on The Rolling Scopes School.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <div class="portfolio__container">
+                    <h2 class="portfolio__title section__title">Portfolio</h2>
+                    <div class="portfolio__card--container">
+                        <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/portfolio/" class="portfolio__link" target="_blank">
+                            <div class="portfolio__img--container">
+                                <div class="portfolio__card--img">
+                                    <span>Landing page.<br>Portfolio for photographer.</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/portfolio/#video" class="portfolio__link" target="_blank">
+                            <div class="portfolio__img--container">
+                                <div class="portfolio__card--img">
+                                    <span>Video player.<br>Implemented using JavaScript.</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/image-gallery/" class="portfolio__link" target="_blank">
+                            <div class="portfolio__img--container">
+                                <div class="portfolio__card--img">
+                                    <span>Image gallery.<br>Implemented using the unsplash API.</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/tic-tac-toe/" class="portfolio__link" target="_blank">
+                            <div class="portfolio__img--container">
+                                <div class="portfolio__card--img">
+                                    <span>Game Tic-Tac-Toe.<br>The game is implemented in JavaScript.</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://rolling-scopes-school.github.io/tatianayakushonok-JSFE2022Q1/shelter/pages/main" class="portfolio__link" target="_blank">
+                            <div class="portfolio__img--container">
+                                <div class="portfolio__card--img">
+                                    <span>Landing page.<br>Landing page for a pet nursery.</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://tatianayakushonok.github.io/cssMemSlider/cssMemSlider/" class="portfolio__link" target="_blank">
+                            <div class="portfolio__img--container">
+                                <div class="portfolio__card--img">
+                                    <span>CSS Slider.<br>Slider written in css.</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="code" class="code section">
+            <div class="container">
+                <div class="code__container">
+                    <h2 class="code__title section__title">Code example</h2>
+                    <div class="code__text">
+                        <pre>
+                            <code id="code2">
+                                (<span class="red">function</span>(){
+                                    <span class="red">const</span> videoPlay = document.<span class="blue">querySelector</span>('.video_ico');
+                                    <span class="red">const</span> video = document.<span class="blue">querySelector</span>('.video');
+                                    videoPlay.<span class="blue">addEventListener</span>('click', () =&gt; {
+                                        <span class="red">if</span>(video.<span class="darcblue">paused</span>) {
+                                            video.<span class="blue">play</span>();
+                                            videoPlay.<span class="darcblue">classList</span>.<span class="blue">add</span>('video_ico-hidden');
+                                        } <span class="red">else</span> {
+                                            video.<span class="blue">pause</span>();
+                                            videoPlay.<span class="darcblue">classList</span>.<span class="blue">remove</span>('video_ico-hidden');
+                                        }
+                                    })
+                                 }())
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts section">
+            <div class="container">
+                <div class="contacts__container">
+                    <h2 class="contacts__title section__title">Contact information</h2>
+                    <div class="contacts__card">
+                        <div class="contacts__info">
+                            <ul class="about__hire--list">
+                                <li class="about__hire--item">
+                                    <span>Address:</span>Russia, Novokuznetsk
+                                </li>
+                                <li class="about__hire--item">
+                                    <span>Phone:</span>+7(904) 574 76 80
+                                </li>
+                                <li class="about__hire--item">
+                                    <span>E-mail:</span>yakush2@yandex.ru
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <p class="footer__info">2022© Tatiana Yakushonok</p>
+                <a class="footer__link" href="https://github.com/TatianaYakushonok" aria-label="github"><i class="fa fa-github footer__github" aria-hidden="true"></i> </a>
+                <a class="footer__link--img" href="https://rs.school/js/">
+                    <img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="Logo RS School">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
